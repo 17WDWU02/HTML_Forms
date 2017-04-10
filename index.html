@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>HTML Forms</title>
+</head>
+<body>
+	<h1>HTML Form Examples</h1>
+	<form id="" class="" action="success.html" method="POST" enctype="multipart/form-data">
+		<!-- GET is unsecure and shows the values in the url -->
+		<!-- POST is secure and the values gets put into a POST Variable -->
+
+		<!-- INPUTS -->
+		<p>Text</p>
+		<label for="firstname">First Name</label>
+		<input name="firstname" type="text" placeholder="Please Enter your firstname" autofocus><br>
+
+		<label for="username">Username</label>
+		<input type="text" name="username" disabled>
+
+		<p>Number</p>
+		<input type="number" min="0" max="10" step="2" value="6">
+
+		<p>Passwords</p>
+		<input type="password" required>
+
+		<p>file</p>
+		<input type="file" multiple>
+
+		<p>reset</p>
+		<input type="reset" value="reset form">
+
+		<p>radio</p>
+		<input type="radio" name="gender">Male<br>
+		<input type="radio" name="gender">Female<br>
+		<input type="radio" name="gender">Other
+
+		<p>checkbox</p>
+		<input type="checkbox" name="fruit1" checked>apples<br>
+		<input type="checkbox" name="fruit2">bananas<br>
+		<input type="checkbox" name="fruit3">pears
+
+		<!-- submit is the input field which submits the form. It is usually at the end of the from -->
+
+		<p>email</p>
+		<input type="email">
+
+		<p>color</p>
+		<input type="color">
+
+		<p>date</p>
+		<input type="date">
+
+		<p>datetime-local</p>
+		<input type="datetime-local">
+
+		<p>month</p>
+		<input type="month">
+
+		<p>time</p>
+		<input type="time">
+
+		<p>week</p>
+		<input type="week">
+
+		<p>url</p>
+		<input type="url">
+
+		<p>phone / tel</p>
+		<input type="tel">
+
+		<p>range</p>
+		<input type="range" min="0" max="100">
+
+		<p>textarea</p>
+		<textarea cols="50" rows="10"></textarea>
+
+		<p>select</p>
+		<select name="chooseValue">
+			<option value="">Please Select an Option</option>
+			<option value="apple">value 1</option>
+			<option value="pear">value 2</option>
+			<option value="orange" selected>value 3</option>
+		</select>
+
+		<p>button</p>
+		<button type="button">Click Me</button>
+
+
+
+
+
+
+
+
+
+
+
+
+		<p>Submit</p>
+		<input type="submit" class="" id="" value="Sign Up">
+
+	</form>
+
+</body>
+</html>
